@@ -7,7 +7,6 @@ import { ContactUs } from "/Users/kyushiknam/Desktop/code/portfolio/components/C
 import { About } from "../../components/About/About";
 import { Experience } from "../../components/Experience/Experience";
 import { Project } from "../../components/Project/Project";
-import "/Users/kyushiknam/Desktop/code/portfolio/src/app/page.module.css";
 
 export default function Home() {
   return (

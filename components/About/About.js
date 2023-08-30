@@ -1,16 +1,16 @@
 import "components/About/AboutStyles.css";
 import Image from "next/image";
-import js from "/Users/kyushiknam/Desktop/code/portfolio/public/software_icons/js.svg";
-import html from "/Users/kyushiknam/Desktop/code/portfolio/public/software_icons/html.svg";
-import css from "/Users/kyushiknam/Desktop/code/portfolio/public/software_icons/css.svg";
-import ts from "/Users/kyushiknam/Desktop/code/portfolio/public/software_icons/ts.svg";
-import python from "/Users/kyushiknam/Desktop/code/portfolio/public/software_icons/python.svg";
-import react from "/Users/kyushiknam/Desktop/code/portfolio/public/software_icons/react.svg";
-import next from "/Users/kyushiknam/Desktop/code/portfolio/public/software_icons/next-js.svg";
-import flask from "/Users/kyushiknam/Desktop/code/portfolio/public/software_icons/flask.svg";
-import prisma from "/Users/kyushiknam/Desktop/code/portfolio/public/software_icons/prisma.svg";
-import vscode from "/Users/kyushiknam/Desktop/code/portfolio/public/software_icons/vscode.svg";
-import figma from "/Users/kyushiknam/Desktop/code/portfolio/public/software_icons/figma.svg";
+import js from "public/software_icons/js.svg";
+import html from "public/software_icons/html.svg";
+import css from "public/software_icons/css.svg";
+import ts from "public/software_icons/ts.svg";
+import python from "public/software_icons/python.svg";
+import react from "public/software_icons/react.svg";
+import next from "public/software_icons/next-js.svg";
+import flask from "public/software_icons/flask.svg";
+import prisma from "public/software_icons/prisma.svg";
+import vscode from "public/software_icons/vscode.svg";
+import figma from "public/software_icons/figma.svg";
 
 export const About = () => {
   return (

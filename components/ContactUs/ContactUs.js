@@ -1,5 +1,5 @@
 "use client";
-import "/Users/kyushiknam/Desktop/code/portfolio/components/ContactUs/ContactUsStyles.css";
+import "components/ContactUs/ContactUsStyles.css";
 
 export const ContactUs = () => {
   return (

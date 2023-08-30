@@ -1,8 +1,8 @@
 "use client";
 
 import Image from "next/image";
-import "/Users/kyushiknam/Desktop/code/portfolio/components/Project/ProjectStyles.css";
-import digitalArtArchive from "/Users/kyushiknam/Desktop/code/portfolio/public/projects/daa.png";
+import "components/Project/ProjectStyles.css";
+import digitalArtArchive from "public/projects/daa.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 
