@@ -12,9 +12,9 @@ export const Landing = () => {
         <div id="boxWrap">
           <div className="box leftBox">
             <div>
-              <p id="name">Hi, I'm Kyushik.</p>
+              <p id="name">Hi, I&apos;m Kyushik.</p>
               <p className="intro">
-                I'm a fullstack software engineer with a background in UX
+                I&apos;m a fullstack software engineer with a background in UX
                 Design.
               </p>
               <div className="aboutMeLink">
