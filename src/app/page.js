@@ -3,10 +3,10 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 import { NavBar } from "../../components/NavBar/NavBar";
 import { Landing } from "../../components/Landing/Landing";
-import { ContactUs } from "/Users/kyushiknam/Desktop/code/portfolio/components/ContactUs/ContactUs.js";
 import { About } from "../../components/About/About";
 import { Experience } from "../../components/Experience/Experience";
 import { Project } from "../../components/Project/Project";
+import { ContactUs } from "../../components/ContactUs/ContactUs";
 
 export default function Home() {
   return (
