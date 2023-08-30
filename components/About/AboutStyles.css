@@ -1,0 +1,97 @@
+#about {
+  scroll-margin-top: 100px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 10vw);
+  max-width: 1500px;
+  /* height: 100vh; */
+}
+
+.sectionTitle {
+  font-size: 30px;
+  font-weight: bold;
+  color: #e34234;
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+.aboutMeSubSection {
+  margin-bottom: 30px;
+}
+
+.skills_icon_section {
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+div.aboutSubSection:first-of-type {
+  margin-bottom: 24px;
+}
+
+.aboutSubSection p:first-of-type {
+  margin-bottom: 24px;
+}
+
+@media screen and (max-width: 1050px) {
+  #about {
+    margin: 20px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  #about {
+    margin: 20px;
+    max-width: 350px;
+    width: 100%;
+  }
+}
+
+.writing-about-me {
+  font-size: larger;
+  margin-bottom: 30px;
+}
+
+.frameworks {
+  width: 65%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.framework {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.editors {
+  width: 65%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.editor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.softwareSkillsSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,106 @@
+#section {
+  display: flex;
+
+  justify-content: center;
+}
+
+#boxWrap {
+  display: flex;
+  /* width: 100%;
+  margin-left: 5vw;
+  margin-right: 5vw; */
+  width: calc(100% - 10vw);
+  max-width: 1500px;
+}
+
+.box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.rightBox {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.image-container {
+  width: 100%;
+  height: 100%;
+  position: relative; /* If you want text inside of it */
+}
+
+/* Optional: If you want to ensure aspect ratio */
+.aspect-ratio-box {
+  height: 0;
+  overflow: hidden;
+  padding-top: 100%; /* 1:1 Aspect Ratio */
+  position: relative; /* If you want text inside of the container */
+}
+
+.aspect-ratio-box-inside {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+p {
+  margin: 0;
+}
+
+#name {
+  font-size: 70px;
+  font-weight: bold;
+  color: #e34234;
+  margin-bottom: 8px;
+}
+
+.intro {
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.aboutMeLink {
+  display: inline-flex;
+  align-items: center;
+  color: #e34234;
+  width: auto;
+  position: relative;
+  font-size: 20px;
+  /* margin-bottom: 16px; */
+}
+.aboutMeLink a {
+  color: #e34234;
+  text-decoration: none;
+  margin-right: 8px;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.aboutMeLink:hover a,
+.aboutMeLink:hover {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.aboutMeLink a:hover::after,
+.aboutMeLink:hover::after {
+  content: "";
+  width: 30%;
+  height: 2px;
+  background-color: black;
+  position: absolute;
+  bottom: -4px;
+  left: 0px;
+}

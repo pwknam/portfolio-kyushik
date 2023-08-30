@@ -1,0 +1,141 @@
+#experience-section {
+  scroll-margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 10vw);
+  margin: 0 auto;
+  max-width: 1500px;
+}
+
+#experience-section-title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #e34234;
+  margin-bottom: 30px;
+}
+
+#experience-wrapper {
+  display: flex;
+  /* border: 2px solid #e34234;
+  padding-top: 16px;
+  padding-bottom: 16px; */
+}
+
+#company-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 20%;
+  border-left: 2px solid black;
+  /* padding: 0px 10px; */
+}
+
+.company-name {
+  font-weight: normal;
+  color: black;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-left: 10px;
+}
+
+.company-name::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: black;
+  transition: all 0.3s ease-in-out;
+}
+.company-name.selected {
+  font-weight: bold;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+
+.company-name.selected::before {
+  width: 100%;
+}
+
+#descriptions {
+  width: 80%;
+  transition: all 0.5s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.c {
+  font-weight: bold;
+}
+
+.work-description-wrapper.inactive {
+  display: block;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: opacity 0.5s ease-in-out, height 0.5s ease-in-out;
+}
+
+.work-description-wrapper.active {
+  display: block;
+  opacity: 1;
+  overflow: visible;
+  transition: opacity 0.5s e ase-in-out, height 0.5s ease-in-out;
+
+  min-height: 250px;
+  width: 75%;
+}
+.company-name-p {
+  font-size: 18px;
+  margin: 0px;
+  margin-bottom: 4px;
+}
+
+.company-name-p:hover {
+  cursor: pointer;
+}
+
+.title {
+  font-size: 18px;
+  margin: 0px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.year {
+  font-size: 16px;
+  margin: 0px;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.bulletpoints {
+  margin: 0px;
+  margin-left: 30px;
+  /* margin-bottom: 20px; */
+}
+
+.bulletpoints li {
+  margin-bottom: 10px;
+}
+
+.dates-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0px;
+}
+.dates {
+  transform: rotate(-90deg);
+  font-weight: bold;
+  color: #e34234;
+}
+
+#dates-arrow {
+  font-size: 25px;
+}

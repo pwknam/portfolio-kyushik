@@ -1,0 +1,94 @@
+#contact-us-section {
+  scroll-margin-top: 100px;
+
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 10vw);
+  margin: auto;
+  max-width: 1500px;
+  height: 50vh;
+  align-items: center;
+}
+
+.contact-us-information-wrapper {
+  display: flex;
+  width: 100%;
+  /* justify-content: space-around; */
+  margin-bottom: 10vh;
+}
+
+.left {
+  display: flex;
+  width: 75%;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+}
+
+.right {
+  display: flex;
+  width: 25%;
+}
+
+.contact-me-pitch {
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 16px;
+}
+
+.email {
+  font-size: 30px;
+  color: #e34234;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.email:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+.copyright {
+  display: flex;
+}
+
+.copyright-name {
+  margin-left: 8px;
+  font-weight: bold;
+  color: #e34234;
+}
+
+.contact-us-links {
+  list-style-type: none;
+  display: flex;
+
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.contact-us-links a {
+  text-decoration: none;
+  color: #e34234;
+  font-weight: bold;
+}
+
+.contact-us-links:hover a,
+.contact-us-links:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.contact-us-links a:hover::after,
+.contact-us-links:hover::after {
+  content: "";
+  width: 20%;
+  height: 2px;
+  background-color: black;
+  position: absolute;
+  bottom: -2px;
+  left: 0px;
+}
