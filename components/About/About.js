@@ -16,31 +16,33 @@ export const About = () => {
   return (
     <>
       <div id="about">
-        <div className="aboutMeSubSection">
-          <h1 className="sectionTitle">About Me</h1>
-          <p className="writing-about-me">
-            I am a frontend software engineer currently based in NYC. Prior to
-            becomming a software engineer, I earned my MFA in Design at the
-            Savannah College of Art and Design (SCAD). This education developed
-            the skills and experience to design hi-fidelity wireframes and
-            conduct the design thinking methodology with a multidiscplinary
-            team.
-          </p>
-          <p className="writing-about-me">
-            My design skills paired with my software engineering skills make me
-            a complete fullstack web-application developer. I can design
-            wireframes with Figma and script with JavaScript/React.js in order
-            to bring ideas to life.
-          </p>
-          <p className="writing-about-me">
-            I am hungry for the opportunity to learn and work along side
-            user-centered innovators. Below are the software skills, languages,
-            and frameworks I have experience working with. I am open to learning
-            the latest cutting-edge tech!
-          </p>
+        <h1 className="sectionTitle">About Me</h1>
+        <div className="aboutMeSubSectionWrapper">
+          <div className="aboutMeSubSection">
+            <p className="writing-about-me">
+              I am a frontend software engineer currently based in NYC. Prior to
+              becomming a software engineer, I earned my MFA in Design at the
+              Savannah College of Art and Design (SCAD). This education
+              developed the skills and experience to design hi-fidelity
+              wireframes and conduct the design thinking methodology with a
+              multidiscplinary team.
+            </p>
+            <p className="writing-about-me">
+              My design skills paired with my software engineering skills make
+              me a complete fullstack web-application developer. I can design
+              wireframes with Figma and script with JavaScript/React.js in order
+              to bring ideas to life.
+            </p>
+            <p className="writing-about-me">
+              I am hungry for the opportunity to learn and work along side
+              user-centered innovators. Below are the software skills,
+              languages, and frameworks I have experience working with. I am
+              open to learning the latest cutting-edge tech!
+            </p>
+          </div>
         </div>
+        <h1 className="sectionTitle">Skills</h1>
         <div className="softwareSkillsSection">
-          <h1 className="sectionTitle">Skills</h1>
           <div className="skills_icon_section">
             <div className="skill">
               <Image src={js} width={75} height={75} alt="js logo" />

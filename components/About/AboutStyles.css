@@ -6,18 +6,24 @@
   width: calc(100% - 10vw);
   max-width: 1500px;
   /* height: 100vh; */
+  margin-bottom: 20vh;
 }
 
 .sectionTitle {
-  font-size: 30px;
+  font-size: 32px;
   font-weight: bold;
   color: #e34234;
-  margin-bottom: 8px;
+  margin-bottom: 20px;
   text-align: left;
 }
-
+.aboutMeSubSectionWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .aboutMeSubSection {
-  margin-bottom: 30px;
+  margin-bottom: 10vh;
+  width: 70%;
 }
 
 .skills_icon_section {
@@ -32,6 +38,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-size: 16px;
 }
 
 div.aboutSubSection:first-of-type {
@@ -58,7 +65,7 @@ div.aboutSubSection:first-of-type {
 }
 
 .writing-about-me {
-  font-size: larger;
+  font-size: 16px;
   margin-bottom: 30px;
 }
 

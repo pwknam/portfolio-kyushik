@@ -14,13 +14,9 @@ export default function Home() {
       <NavBar />
       <div className="nav-placeholder"></div>
       <Landing />
-      <div className="nav-placeholder"></div>
       <About />
-      <div className="nav-placeholder"></div>
       <Experience />
-      <div className="nav-placeholder"></div>
       <Project />
-      <div className="nav-placeholder"></div>
       <ContactUs />
     </div>
   );
